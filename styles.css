@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.intro, .bio, .portfolio {
+    text-align: center;
+    max-width: 1300px;
+}
+
+img {
+	opacity: 0.75;
+}
+
+img:hover {
+	opacity: 1.0;
+}
+
+.styled-image {
+    max-width: 560px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right {
+	float: right;
+	width: 300px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+}
+
+font {
+	font-weight:bold;
+	font-size:20px;
+}
+
